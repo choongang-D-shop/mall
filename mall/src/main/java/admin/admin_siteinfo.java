@@ -48,12 +48,12 @@ public class admin_siteinfo extends HttpServlet {
 
         // 모델 클래스(m_admin_db) 인스턴스를 생성하여 DB에 저장
         m_admin_db adminDb = new m_admin_db();
+        /*
         int result = adminDb.saveSettings(homepage_title, admin_mail, point_use, join_monet, join_level,
                                           corp_nm, corp_number, corp_leader, corp_leader_number, mail_order_number,
                                           add_corp_number, corp_post, corp_addr, info_manage_nm, info_manage_mail,
                                           bank, bank_account_number, credit_card_use, phone_pay_use, book_gift_pay_use,
                                           pay_min_point, pay_max_point, cash_receipt, delivery_corp, delivery_money, wish_date);
-        
         // JavaScript를 이용해 alert을 띄우고 페이지를 새로 고침
         response.setContentType("text/html;charset=UTF-8");
         if (result > 0) {
@@ -65,6 +65,7 @@ public class admin_siteinfo extends HttpServlet {
                                       + "alert('사이트 정보 저장에 실패했습니다.');"
                                       + "location.reload();</script>");
         }
+         */
     }
 }
 
